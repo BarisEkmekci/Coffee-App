@@ -1,3 +1,6 @@
+Projede çok fazla hata yaşadığım için sadece atmak istedim. Değerlendirmeye alınmasını istemiyorum.
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
