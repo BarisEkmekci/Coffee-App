@@ -37,7 +37,7 @@ const CoffeeDetail = (props) => {
 
   return (
     <>
-     {/* <Provider store={store}> */}
+    
       {coffee.name != undefined && (
         <div className="relative">
           <div className="grid grid-cols-12 p-5 border rounded-md shadow gap-4">
@@ -85,7 +85,7 @@ const CoffeeDetail = (props) => {
           </div>
         </div>
       )}
-      {/* </Provider> */}
+     
     </>
   );
 };
