@@ -4,8 +4,8 @@ import Coffee from "../components/Coffee";
 import { BiSolidCoffeeBean } from "react-icons/bi";
 import Buy from "../components/Buy";
 import { Provider } from "react-redux"
-//import Store from "../redux/Store";
-//import { addtoCart } from "../redux/cartSlice";
+import Store from "../redux/Store";
+import { addtoCart } from "../redux/cartSlice";
 
 
 
@@ -46,7 +46,7 @@ const Home = () => {
   }, []);
 
   return (
-    //<Provider store={Store}>
+    <Provider store={Store}>
     <div className="">
 
     
@@ -73,7 +73,7 @@ const Home = () => {
         }
       </div>
     </div>
-    //</Provider>
+    </Provider>
   );
 };
 
