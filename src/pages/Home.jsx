@@ -46,7 +46,7 @@ const Home = () => {
   }, []);
 
   return (
-    <Provider store={Store}>
+    //<Provider store={Store}>
     <div className="">
 
     
@@ -73,7 +73,7 @@ const Home = () => {
         }
       </div>
     </div>
-    </Provider>
+    //</Provider>
   );
 };
 
